@@ -1,0 +1,451 @@
+import React from "react";
+
+export const ArrowRight = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="8"
+    height="14"
+    viewBox="0 0 8 14"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M0.292893 13.7071C-0.0976315 13.3166 -0.0976315 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976315 1.31658 -0.0976315 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7.70711 6.29289C8.09763 6.68342 8.09763 7.31658 7.70711 7.70711L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
+      fill="#667085"
+    />
+  </svg>
+);
+export const ArrowDown = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="14"
+    height="8"
+    viewBox="0 0 14 8"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L7.70711 7.70711C7.31658 8.09763 6.68342 8.09763 6.29289 7.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
+      fill="#667085"
+    />
+  </svg>
+);
+export const Bell = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M7.50066 17.4993C8.16399 18.0177 9.04065 18.3327 10.0007 18.3327C10.9607 18.3327 11.8373 18.0177 12.5007 17.4993M2.10899 11.9943C1.93149 13.1218 2.72399 13.9043 3.69399 14.2943C7.41316 15.7902 12.5882 15.7902 16.3073 14.2943C17.2773 13.9043 18.0698 13.1218 17.8923 11.9943C17.784 11.301 17.2448 10.7243 16.8457 10.161C16.3232 9.41352 16.2715 8.59935 16.2707 7.73185C16.2715 4.38268 13.4648 1.66602 10.0007 1.66602C6.53649 1.66602 3.72982 4.38268 3.72982 7.73268C3.72982 8.59935 3.67816 9.41435 3.15482 10.161C2.75649 10.7243 2.21816 11.301 2.10899 11.9943Z"
+      stroke="#667085"
+      strokeWidth="1.25"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const AI = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M8.25 1.5H6.75C3 1.5 1.5 3 1.5 6.75V11.25C1.5 15 3 16.5 6.75 16.5H11.25C15 16.5 16.5 15 16.5 11.25V9.75"
+      stroke="#5E5CA4"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M12.03 2.26495L6.11997 8.17495C5.89497 8.39995 5.66997 8.84245 5.62497 9.16495L5.30247 11.4224C5.18247 12.2399 5.75997 12.8099 6.57747 12.6974L8.83497 12.3749C9.14997 12.3299 9.59247 12.1049 9.82497 11.8799L15.735 5.96995C16.755 4.94995 17.235 3.76495 15.735 2.26495C14.235 0.764945 13.05 1.24495 12.03 2.26495Z"
+      stroke="#5E5CA4"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M11.1825 3.11255C11.685 4.90505 13.0875 6.30755 14.8875 6.81755"
+      stroke="#5E5CA4"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const Space = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M7.86749 1.67254L4.12499 3.07504C3.26249 3.39754 2.5575 4.41753 2.5575 5.34003V10.9125C2.5575 11.7975 3.1425 12.96 3.855 13.4925L7.07999 15.9C8.13749 16.695 9.87748 16.695 10.935 15.9L14.16 13.4925C14.8725 12.96 15.4575 11.7975 15.4575 10.9125V5.34003C15.4575 4.41753 14.7525 3.39754 13.89 3.07504L10.1475 1.67254C9.50999 1.44004 8.48999 1.44004 7.86749 1.67254Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M9.00002 8.19006C8.97002 8.19006 8.93251 8.19006 8.90251 8.19006C8.19751 8.16756 7.63501 7.58256 7.63501 6.87006C7.63501 6.14256 8.22752 5.55005 8.95502 5.55005C9.68252 5.55005 10.275 6.14256 10.275 6.87006C10.2675 7.59006 9.70502 8.16756 9.00002 8.19006Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M7.50753 10.29C6.78753 10.77 6.78753 11.5575 7.50753 12.0375C8.32503 12.585 9.66753 12.585 10.485 12.0375C11.205 11.5575 11.205 10.77 10.485 10.29C9.67503 9.74252 8.33253 9.74252 7.50753 10.29Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const Content = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M6 9.15002H11.25"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M6 12.15H9.285"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M7.5 4.5H10.5C12 4.5 12 3.75 12 3C12 1.5 11.25 1.5 10.5 1.5H7.5C6.75 1.5 6 1.5 6 3C6 4.5 6.75 4.5 7.5 4.5Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M12 3.01501C14.4975 3.15001 15.75 4.07251 15.75 7.50001V12C15.75 15 15 16.5 11.25 16.5H6.75C3 16.5 2.25 15 2.25 12V7.50001C2.25 4.08001 3.5025 3.15001 6 3.01501"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const Brand = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M7.5 3.375V13.5C7.5 14.31 7.16999 15.0525 6.64499 15.5925L6.61501 15.6225C6.54751 15.69 6.47251 15.7575 6.40501 15.81C6.18001 16.005 5.92499 16.155 5.66249 16.26C5.57999 16.2975 5.4975 16.3275 5.415 16.3575C5.1225 16.455 4.8075 16.5 4.5 16.5C4.2975 16.5 4.09501 16.4775 3.90001 16.44C3.80251 16.4175 3.705 16.395 3.6075 16.365C3.4875 16.3275 3.375 16.29 3.2625 16.2375C3.2625 16.23 3.2625 16.23 3.255 16.2375C3.045 16.1325 2.84251 16.0125 2.65501 15.87L2.6475 15.8625C2.55 15.7875 2.46001 15.7125 2.37751 15.6225C2.29501 15.5325 2.2125 15.4425 2.13 15.345C1.9875 15.1575 1.8675 14.955 1.7625 14.745C1.77 14.7375 1.77 14.7375 1.7625 14.7375C1.7625 14.7375 1.7625 14.73 1.755 14.7225C1.71 14.6175 1.67249 14.505 1.63499 14.3925C1.60499 14.295 1.58249 14.1975 1.55999 14.1C1.52249 13.905 1.5 13.7025 1.5 13.5V3.375C1.5 2.25 2.25 1.5 3.375 1.5H5.625C6.75 1.5 7.5 2.25 7.5 3.375Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M16.5 12.375V14.625C16.5 15.75 15.75 16.5 14.625 16.5H4.5C4.8075 16.5 5.1225 16.455 5.415 16.3575C5.4975 16.3275 5.57999 16.2975 5.66249 16.26C5.92499 16.155 6.18001 16.005 6.40501 15.81C6.47251 15.7575 6.54751 15.69 6.61501 15.6225L6.64499 15.5925L11.745 10.5H14.625C15.75 10.5 16.5 11.25 16.5 12.375Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M3.60751 16.365C3.15751 16.23 2.73003 15.9825 2.37753 15.6225C2.01753 15.27 1.77001 14.8425 1.63501 14.3925C1.92751 15.33 2.67001 16.0725 3.60751 16.365Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M13.7775 8.46746L11.745 10.5L6.64502 15.5925C7.17002 15.0525 7.50003 14.31 7.50003 13.5V6.25496L9.53252 4.22247C10.3275 3.42747 11.3925 3.42747 12.1875 4.22247L13.7775 5.81247C14.5725 6.60747 14.5725 7.67246 13.7775 8.46746Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M4.5 14.25C4.91421 14.25 5.25 13.9142 5.25 13.5C5.25 13.0858 4.91421 12.75 4.5 12.75C4.08579 12.75 3.75 13.0858 3.75 13.5C3.75 13.9142 4.08579 14.25 4.5 14.25Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const Posts = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M11.6667 3.75H17.5"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M11.6667 7.91663H17.5"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M2.5 12.0834H17.5"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M2.5 16.25H17.5"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M7.91669 7.02504V4.64171C7.91669 3.70837 7.54169 3.33337 6.60002 3.33337H4.22502C3.29169 3.33337 2.91669 3.70837 2.91669 4.64171V7.01671C2.91669 7.95837 3.29169 8.33337 4.22502 8.33337H6.60002C7.54169 8.33337 7.91669 7.95837 7.91669 7.02504Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const Templates = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M18.05 8.70005L17.2333 12.1834C16.5333 15.1917 15.15 16.4084 12.55 16.1584C12.1333 16.125 11.6833 16.05 11.2 15.9334L9.79999 15.6C6.32499 14.775 5.24999 13.0584 6.06665 9.57505L6.88332 6.08338C7.04999 5.37505 7.24999 4.75838 7.49999 4.25005C8.47499 2.23338 10.1333 1.69171 12.9167 2.35005L14.3083 2.67505C17.8 3.49171 18.8667 5.21671 18.05 8.70005Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M12.55 16.1583C12.0333 16.5083 11.3833 16.8 10.5916 17.0583L9.27498 17.4917C5.96665 18.5583 4.22498 17.6667 3.14998 14.3583L2.08331 11.0667C1.01665 7.75833 1.89998 6.00833 5.20831 4.94167L6.52498 4.50833C6.86665 4.4 7.19165 4.30833 7.49998 4.25C7.24998 4.75833 7.04998 5.375 6.88331 6.08333L6.06665 9.575C5.24998 13.0583 6.32498 14.775 9.79998 15.6L11.2 15.9333C11.6833 16.05 12.1333 16.125 12.55 16.1583Z"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M10.5333 7.10828L14.575 8.13328"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M9.71667 10.3334L12.1333 10.95"
+      stroke="#667085"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const Plus = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="15"
+    height="16"
+    viewBox="0 0 15 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M7.5 0.5C7.74864 0.5 7.9871 0.598772 8.16291 0.774588C8.33873 0.950403 8.4375 1.18886 8.4375 1.4375V7.0625H14.0625C14.3111 7.0625 14.5496 7.16127 14.7254 7.33709C14.9012 7.5129 15 7.75136 15 8C15 8.24864 14.9012 8.4871 14.7254 8.66291C14.5496 8.83873 14.3111 8.9375 14.0625 8.9375H8.4375V14.5625C8.4375 14.8111 8.33873 15.0496 8.16291 15.2254C7.9871 15.4012 7.74864 15.5 7.5 15.5C7.25136 15.5 7.0129 15.4012 6.83709 15.2254C6.66127 15.0496 6.5625 14.8111 6.5625 14.5625V8.9375H0.9375C0.68886 8.9375 0.450403 8.83873 0.274588 8.66291C0.0987722 8.4871 0 8.24864 0 8C0 7.75136 0.0987722 7.5129 0.274588 7.33709C0.450403 7.16127 0.68886 7.0625 0.9375 7.0625H6.5625V1.4375C6.5625 1.18886 6.66127 0.950403 6.83709 0.774588C7.0129 0.598772 7.25136 0.5 7.5 0.5Z"
+      fill="white"
+    />
+  </svg>
+);
+export const ArrowBack = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M9.57 5.93005L3.5 12.0001L9.57 18.0701"
+      stroke="#31353F"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M20.5 12H3.67004"
+      stroke="#31353F"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Pencil = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <g clip-path="url(#clip0_30_4001)">
+      <g clip-path="url(#clip1_30_4001)">
+        <path
+          d="M11.3344 0.603027L9.8219 2.11553L13.8844 6.17803L15.3969 4.66553C16.1782 3.88428 16.1782 2.61865 15.3969 1.8374L14.1657 0.603027C13.3844 -0.178223 12.1188 -0.178223 11.3375 0.603027H11.3344ZM9.11565 2.82178L1.83128 10.1093C1.50628 10.4343 1.26878 10.8374 1.13753 11.278L0.0312776 15.0374C-0.0468474 15.303 0.0250276 15.5874 0.218778 15.7812C0.412528 15.9749 0.696903 16.0468 0.959403 15.9718L4.71878 14.8655C5.1594 14.7343 5.56253 14.4968 5.88753 14.1718L13.1782 6.88428L9.11565 2.82178Z"
+          fill="#4B5563"
+        />
+      </g>
+    </g>
+    <defs>
+      <clipPath id="clip0_30_4001">
+        <rect width="16" height="16" fill="white" />
+      </clipPath>
+      <clipPath id="clip1_30_4001">
+        <path d="M0 0H16V16H0V0Z" fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export const Video = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M9.3975 15.3151H4.6575C2.2875 15.3151 1.5 13.7401 1.5 12.1576V5.84256C1.5 3.47256 2.2875 2.68506 4.6575 2.68506H9.3975C11.7675 2.68506 12.555 3.47256 12.555 5.84256V12.1576C12.555 14.5276 11.76 15.3151 9.3975 15.3151Z"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M14.6399 12.825L12.5549 11.3625V6.62998L14.6399 5.16748C15.6599 4.45498 16.4999 4.88998 16.4999 6.14248V11.8575C16.4999 13.11 15.6599 13.545 14.6399 12.825Z"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M8.625 8.25C9.24632 8.25 9.75 7.74632 9.75 7.125C9.75 6.50368 9.24632 6 8.625 6C8.00368 6 7.5 6.50368 7.5 7.125C7.5 7.74632 8.00368 8.25 8.625 8.25Z"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const Personas = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M8.5948 10.2975C9.75874 10.2975 10.7023 9.35396 10.7023 8.19002C10.7023 7.02608 9.75874 6.08252 8.5948 6.08252C7.43086 6.08252 6.4873 7.02608 6.4873 8.19002C6.4873 9.35396 7.43086 10.2975 8.5948 10.2975Z"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M12.4874 15.1501C12.4874 13.4026 10.7474 11.9775 8.59489 11.9775C6.44239 11.9775 4.70239 13.3951 4.70239 15.1501"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M15.75 9.375C15.75 13.3125 12.5625 16.5 8.625 16.5C4.6875 16.5 1.5 13.3125 1.5 9.375C1.5 5.4375 4.6875 2.25 8.625 2.25C9.6075 2.25 10.545 2.44499 11.4 2.80499C11.3025 3.10499 11.25 3.42 11.25 3.75C11.25 4.3125 11.4075 4.845 11.685 5.295C11.835 5.55 12.03 5.78248 12.255 5.97748C12.78 6.45748 13.4775 6.75 14.25 6.75C14.58 6.75 14.895 6.69748 15.1875 6.59248C15.5475 7.44748 15.75 8.3925 15.75 9.375Z"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M17.25 3.75C17.25 3.99 17.22 4.22249 17.16 4.44749C17.0925 4.74749 16.9725 5.04 16.815 5.295C16.455 5.9025 15.8775 6.37498 15.1875 6.59248C14.895 6.69748 14.58 6.75 14.25 6.75C13.4775 6.75 12.78 6.45748 12.255 5.97748C12.03 5.78248 11.835 5.55 11.685 5.295C11.4075 4.845 11.25 4.3125 11.25 3.75C11.25 3.42 11.3025 3.10499 11.4 2.80499C11.5425 2.36999 11.7825 1.98002 12.0975 1.65752C12.645 1.09502 13.41 0.75 14.25 0.75C15.135 0.75 15.9375 1.13251 16.4775 1.74751C16.9575 2.28001 17.25 2.985 17.25 3.75Z"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M15.3676 3.73499H13.1326"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M14.25 2.64001V4.88251"
+      stroke="#667085"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
