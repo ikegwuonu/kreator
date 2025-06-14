@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 const Category = () => {
-  const [open] = useAtom(categoryDrawerAtom);
+  const [open, setOpen] = useAtom(categoryDrawerAtom);
 
   const pathname = usePathname();
   const isMobile = useIsMobile();
@@ -28,12 +28,13 @@ const Category = () => {
       className={
         (open && isMobile ? "block" : "hidden") +
         " lg:block" +
-        " py-[14px] space-y-6 fixed  lg:relative px-[15px] bg-white h-[610px] rounded-2xl w-[220px] border-[##EAECF0] flex flex-col"
+        " py-[14px] z-10 space-y-6 fixed  lg:relative px-[15px] bg-white h-[610px] rounded-2xl w-[220px] border-[##EAECF0] flex flex-col"
       }
     >
       {Categories.map((item) => (
         <Link
           href={item.link}
+          onClick={() => setOpen(false)}
           key={item.name}
           className={
             categoryClass(item.name) +
