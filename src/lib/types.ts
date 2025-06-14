@@ -1,6 +1,7 @@
 export interface Category {
   name: string;
   icon: React.ReactNode;
+  link: string;
 }
 export interface TemplateCategory {
   name: string;
@@ -19,4 +20,7 @@ export interface CheckboxGroupProps {
 export interface TypographyScale {
   heading: string;
   value: string;
+}
+export interface BrandProps {
+  setTab: React.Dispatch<React.SetStateAction<boolean>>;
 }

@@ -11,14 +11,34 @@ import {
 import { Category, TemplateCategory, TypographyScale } from "./types";
 
 export const Categories: Category[] = [
-  { name: "AI Ghostwriter", icon: <AI width={18} height={18} /> },
-  { name: "Safe Space", icon: <Space width={18} height={18} /> },
-  { name: "Content Library", icon: <Content width={18} height={18} /> },
-  { name: "Brand Identity Kit", icon: <Brand width={18} height={18} /> },
-  { name: "My Posts", icon: <Posts width={18} height={18} /> },
-  { name: "Template Library", icon: <Templates width={18} height={18} /> },
-  { name: "Video Creation", icon: <Video width={18} height={18} /> },
-  { name: "Build AI Personas", icon: <Personas width={18} height={18} /> },
+  { name: "AI Ghostwriter", icon: <AI width={18} height={18} />, link: "#" },
+  { name: "Safe Space", icon: <Space width={18} height={18} />, link: "#" },
+  {
+    name: "Content Library",
+    icon: <Content width={18} height={18} />,
+    link: "#",
+  },
+  {
+    name: "Brand Identity Kit",
+    icon: <Brand width={18} height={18} />,
+    link: "/brand",
+  },
+  { name: "My Posts", icon: <Posts width={18} height={18} />, link: "#" },
+  {
+    name: "Template Library",
+    icon: <Templates width={18} height={18} />,
+    link: "/",
+  },
+  {
+    name: "Video Creation",
+    icon: <Video width={18} height={18} />,
+    link: "#",
+  },
+  {
+    name: "Build AI Personas",
+    icon: <Personas width={18} height={18} />,
+    link: "#",
+  },
 ];
 export const TemplateCategories: TemplateCategory[] = [
   {
