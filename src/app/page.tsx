@@ -1,5 +1,4 @@
 import AddNew from "@/components/AddNew";
-import { Plus } from "@/components/svg/icons";
 import { TemplateCategories } from "@/lib/data";
 import Image from "next/image";
 

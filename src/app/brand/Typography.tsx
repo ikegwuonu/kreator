@@ -1,4 +1,4 @@
-import { ArrowBack, ArrowDown, Pencil } from "@/components/svg/icons";
+import { ArrowBack, Pencil } from "@/components/svg/icons";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
@@ -19,10 +19,13 @@ import React from "react";
 const Typography = ({ setTab }: BrandProps) => {
   return (
     <div className="bg-white border border-border py-6 px-6 rounded-2xl flex-1">
-      <div className="flex gap-[10px] items-center">
+      <button
+        onClick={() => setTab((prev) => !prev)}
+        className="flex gap-[10px] items-center"
+      >
         <ArrowBack />
         <p className="text-[#31353F] text-[18px] font-semibold">Back</p>
-      </div>
+      </button>
       <div className="pl-[38px] pt-[19px] pb-[18px] flex flex-col gap-1">
         <p className="font-[700] text-[18px] text-[#111827] leading-8">
           Typography Setting

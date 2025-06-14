@@ -5,12 +5,10 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
 import { fonts } from "@/lib/data";
-import { Plus } from "lucide-react";
 import React from "react";
 import ColorPalette from "./ColorPalette";
 import { BrandProps } from "@/lib/types";
@@ -37,7 +35,7 @@ const Colors = ({ setTab }: BrandProps) => {
       </p>
       <ColorPalette />
       <div>
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-col lg:flex-row gap-4">
           <div>
             <p className="text-dark font-bold text-[18px] pb-3 leading-[125%]">
               Typography
@@ -64,7 +62,7 @@ const Colors = ({ setTab }: BrandProps) => {
               <Trash />
             </div>
           </div>
-          <div className="pt-6 flex justify-between">
+          <div className="pt-6 flex justify-between md:flex-row flex-col gap-4">
             <Select>
               <SelectTrigger className="w-[180px] bg-white shadow-none">
                 <SelectValue
