@@ -80,7 +80,7 @@ const Colors = ({ setTab }: BrandProps) => {
                 </SelectGroup>
               </SelectContent>
             </Select>
-            <div className="flex items-center gap-3">
+            <div className="flex sm:items-center gap-3 flex-col sm:flex-row items-start">
               <button className="py-2  px-3 bg-white rounded-lg text-[#374151] border border-[#D1D5DB]">
                 Cancel
               </button>

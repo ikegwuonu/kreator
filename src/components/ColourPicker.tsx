@@ -185,7 +185,7 @@ export default function ColorPicker({
   if (!isOpen) return null;
 
   return (
-    <div className="absolute flex items-center justify-center z-50">
+    <div className="absolute left-[-40%] right-[100%]  flex items-center justify-center z-10">
       <div className="bg-white rounded-2xl p-4 w-[308px] shadow-xl">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-[18px] font-bold">Add Colours</h2>

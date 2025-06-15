@@ -13,7 +13,7 @@ const Navbar = () => {
   const isBrandPage = pathname.includes("brand");
   const category = isBrandPage ? "Brand Identity Kit" : "Template Library";
   return (
-    <div className="px-6 py-5 sticky top-0 inset-x-0 flex justify-between items-center bg-white border-b border-[#EAECF0]">
+    <div className="sm:px-6 sm:py-5 px-3 py-4 z-30 sticky top-0 inset-x-0 flex justify-between items-center bg-white border-b border-[#EAECF0]">
       <div className="flex items-center gap-4">
         <Menu
           className="block lg:hidden cursor-pointer"

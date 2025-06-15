@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#F7F7F7] py-6 pl-6 pr-3 flex-1">
+    <div className="bg-[#F7F7F7] py-6 pl-6 pr-3 flex-1 ">
       <div className="w-full">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between gap-4 md:gap-0 items-start md:items-center flex-col md:flex-row ">
           <p className="text-[18px] font-semibold text-[#101828]">
             Template Library
           </p>
@@ -20,14 +20,17 @@ export default function Home() {
               </p>
               <p className="font-semibold text-[#6A67AF]">View all</p>
             </div>
-            <div className="pt-6 flex gap-4 items-center justify-center">
+            <div className="pt-6 flex md:gap-4 items-center justify-center flex-col md:flex-row gap-6">
               {[1, 2, 3].map((_, idx) => (
-                <div key={idx} className="relative w-1/3 aspect-[320/250]">
+                <div
+                  key={idx}
+                  className="relative md:w-1/3 w-full  aspect-[320/250] "
+                >
                   {/* Background image */}
                   <Image
                     src={category.image}
                     alt="linkedin"
-                    className="object-cover rounded-xl"
+                    className="object-cover rounded-xl w-full"
                     fill
                   />
                   {/* Centered overlay image */}

@@ -34,14 +34,13 @@ const ColorPalette = () => {
             </div>
             <p className="text-sm text-[#6C68C0] leading-5">Add New</p>
           </button>
-          <div className="">
-            <ColorPicker
-              isOpen={isColorPickerOpen}
-              onClose={() => setIsColorPickerOpen(false)}
-              onColorSelect={handleColorSelect}
-              initialColor={selectedColor}
-            />
-          </div>
+
+          <ColorPicker
+            isOpen={isColorPickerOpen}
+            onClose={() => setIsColorPickerOpen(false)}
+            onColorSelect={handleColorSelect}
+            initialColor={selectedColor}
+          />
         </div>
       </div>
     </div>

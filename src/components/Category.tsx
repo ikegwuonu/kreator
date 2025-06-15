@@ -28,7 +28,7 @@ const Category = () => {
       className={
         (open && isMobile ? "block" : "hidden") +
         " lg:block" +
-        " py-[14px] z-10 space-y-6 fixed  lg:relative px-[15px] bg-white h-[610px] rounded-2xl w-[220px] border-[##EAECF0] flex flex-col"
+        " py-[14px] z-20 space-y-6 fixed  lg:relative px-[15px] bg-white h-[610px] rounded-2xl w-[220px] border-[##EAECF0] flex flex-col"
       }
     >
       {Categories.map((item) => (

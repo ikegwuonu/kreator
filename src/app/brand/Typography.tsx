@@ -18,7 +18,7 @@ import React from "react";
 
 const Typography = ({ setTab }: BrandProps) => {
   return (
-    <div className="bg-white border border-border py-6 px-6 rounded-2xl flex-1">
+    <div className="bg-white border border-border sm:p-6 p-3 rounded-2xl flex-1">
       <button
         onClick={() => setTab((prev) => !prev)}
         className="flex gap-[10px] items-center"
@@ -34,7 +34,7 @@ const Typography = ({ setTab }: BrandProps) => {
           Configure your brand typography and font specifications
         </p>
       </div>
-      <div className="border border-[#E5E7EB] rounded-xl p-[33px]">
+      <div className="border border-[#E5E7EB] rounded-xl sm:p-[33px] p-3">
         <p className="text-[18px] font-semibold pb-6">Primary Font</p>
         <p className="text-sm font-[500] text-[#374151] pb-4">Font Family</p>
         <Select>
@@ -54,7 +54,7 @@ const Typography = ({ setTab }: BrandProps) => {
             </SelectGroup>
           </SelectContent>
         </Select>
-        <div className="mt-6 bg-[#E5E7EB] rounded-lg p-6">
+        <div className="mt-6 bg-[#E5E7EB] rounded-lg sm:p-6 p-3">
           <p className="text-4xl text-dark pb-4">Aa Bb Cc Dd Ee Ff Gg</p>
           <p className="text-dark text-[18px]">
             The quick brown fox jumps over the lazy dog
@@ -63,7 +63,7 @@ const Typography = ({ setTab }: BrandProps) => {
         <p className="text-sm font-[500] text-[#374151] pb-3 pt-6">
           Available Weights
         </p>
-        <div className="grid grid-cols-3 w-full">
+        <div className="grid sm:grid-cols-3 w-full grid-cols-1 gap-4">
           {checkboxOptions.map((option) => (
             <div
               key={option.value}
@@ -79,13 +79,13 @@ const Typography = ({ setTab }: BrandProps) => {
         </div>
       </div>
       <div className="my-[46px] h-[1px] bg-[#ececec]"></div>
-      <div className="border border-[#E5E7EB] rounded-xl p-[33px]">
+      <div className="border border-[#E5E7EB] rounded-xl sm:p-[33px] p-3">
         <p className="text-dark text-[18px] font-bold pb-6">Typography Scale</p>
         <div className="flex flex-col gap-4">
           {typographyScale.map((scale) => (
             <div
               key={scale.value}
-              className="p-[17px] rounded-lg cursor-pointer border border-[##E5E7EB] flex justify-between items-center"
+              className="sm:p-[17px] p-3 rounded-lg cursor-pointer border border-[##E5E7EB] flex justify-between items-center"
             >
               <div className="flex items-end gap-4">
                 <p className="text-dark text-4xl leading-10">{scale.heading}</p>
@@ -96,7 +96,7 @@ const Typography = ({ setTab }: BrandProps) => {
           ))}
         </div>
       </div>
-      <div className="mt-[21px] flex gap-4 justify-end rounded-lg">
+      <div className="mt-[21px] flex gap-4 justify-end rounded-lg flex-col sm:flex-row ">
         <button className="pt-[11px] pb-[7px] px-[25px] bg-white rounded-lg text-[#374151] border border-[#D1D5DB]">
           Cancel
         </button>
